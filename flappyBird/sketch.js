@@ -38,18 +38,26 @@ var showNothing = false;
 var randomPipeHeights = [];
 var isChristmas = true;
 
+
 function preload() {
   if (isChristmas) {
-    birdSprite = loadImage("https://ibb.co/wsD7Z0n");
+    birdSprite = loadImage("images/christmasBerd.png");
+    birdSprite = loadImage("https://raw.githubusercontent.com/Code-Bullet/Flappy-Bird-AI/master/flappyBird/images/christmasberd.png");
   } else {
-    birdSprite = loadImage("https://ibb.co/wsD7Z0n");
+    birdSprite = loadImage("images/fatBird.png");
+    birdSprite = loadImage("https://raw.githubusercontent.com/Code-Bullet/Flappy-Bird-AI/master/flappyBird/images/fatBird.png");
   }
   topPipeSprite = loadImage("images/full pipe top.png");
   bottomPipeSprite = loadImage("images/full pipe bottom.png");
   backgroundSprite = loadImage("images/background.png");
   groundSprite = loadImage("images/groundPiece.png");
+  topPipeSprite = loadImage("https://raw.githubusercontent.com/Code-Bullet/Flappy-Bird-AI/master/flappyBird/images/full%20pipe%20top.png");
+  bottomPipeSprite = loadImage("https://raw.githubusercontent.com/Code-Bullet/Flappy-Bird-AI/master/flappyBird/images/full%20pipe%20bottom.png");
+  backgroundSprite = loadImage("https://raw.githubusercontent.com/Code-Bullet/Flappy-Bird-AI/master/flappyBird/images/background.png");
+  groundSprite = loadImage("https://raw.githubusercontent.com/Code-Bullet/Flappy-Bird-AI/master/flappyBird/images/groundPiece.png");
 
 }
+
 
 function setup() {
   window.canvas = createCanvas(600, 800);
