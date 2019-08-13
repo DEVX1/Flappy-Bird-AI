@@ -40,9 +40,9 @@ var isChristmas = true;
 
 function preload() {
   if (isChristmas) {
-    birdSprite = loadImage("images/christmasBerd.png");
+    birdSprite = loadImage("flappyBird/images/christmasBerd.png");
   } else {
-    birdSprite = loadImage("images/fatBird.png");
+    birdSprite = loadImage("flappyBird/images/fatBird.png");
   }
   topPipeSprite = loadImage("images/full pipe top.png");
   bottomPipeSprite = loadImage("images/full pipe bottom.png");
